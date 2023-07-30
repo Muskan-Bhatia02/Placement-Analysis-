@@ -1,0 +1,185 @@
+.navbar-new{
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    margin-right: 600px;
+    }
+    
+    .space{
+      margin: 5px;
+      padding: 5px;
+      font-size: 17px;
+    }
+    
+    .nav-link{
+      color: rgb(0, 255, 72);
+      margin-top: 1px;
+      margin-bottom: 1px;
+      font-size: 17px;
+      margin-left: 10px;
+    }
+    
+    .active{
+      color: rgba(63, 196, 11, 0.899);
+    }
+    
+    .accordion{
+      max-width: 1000px;
+      /* justify-items: center; */
+      align-items: center;
+      /* justify-content: center; */
+      margin: auto;
+      margin-top: 20px;
+      /* text-align: center; */
+    }
+    
+    .text-center{
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    
+    /* .cards{
+      margin: 10px;
+    } */
+    
+    .allcards{
+      /* margin: 44px; */
+      margin: auto;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    
+    .recruiters{
+      text-align: center;
+      font-weight: bold;
+      color: rgb(25, 50, 244);
+    }
+    
+    
+    .outer{
+      width: 800px;
+      margin: auto;
+      margin-top: 30px;
+    
+    }
+    
+    .contact , .eligibility{
+      text-align: center;
+      font-weight: bold;
+      color: green;
+      background-color: gainsboro;
+    }
+    
+    
+    label {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      text-align: left;
+      width: 600px;
+      line-height: 26px;
+      margin-bottom: 10px;
+     
+    }
+    
+    input[type="number"]{
+      height: 30px;
+      flex: 0 0 200px;
+      margin-left: 10px;
+      border: 2px solid gray;
+      border-radius: 5px;
+    }
+    
+    .textlabel{
+      width: 300px;
+      /* text-align: left; */
+    }
+    
+    .container, .back{
+      justify-items: center;
+      text-align: center;
+      font-size: 17px;
+      /* justify-content: space-evenly; */
+    }
+    
+    .back{
+      justify-content: space-evenly;
+      text-align: left;
+      text-justify: inter-word;
+    }
+    
+    input[type="radio"]{
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .slides{
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .input-boxes{
+      width: 80%;
+      margin: auto;
+    }
+
+    .prediction{
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 40px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    
+    }
+
+    .input-boxes{
+      width: 80%;
+      margin: auto;
+    }
+
+    .container1{
+      text-align: center;
+      margin-top: 40px;
+      border: 2px solid black;
+      border-radius: 15px;
+      width: 47%;
+      margin: auto;
+    }
+
+    .container2{
+      text-align: center;
+      margin-top: 40px;
+      width: 47%;
+      margin: auto;
+    }
+    
+li:hover{
+  text-decoration: underline;
+}
+
+.image1 , .image2{
+display: flex;
+margin-bottom: 20px;
+}
+
+.text1, .text2{
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+    
+.imagecls{
+  margin-left: 88px;
+  margin-right: 91px;
+}
+
+
+.images{
+  margin-bottom: 20px;
+}
+
+.rightspace{
+  padding-right: 5px;
+}
