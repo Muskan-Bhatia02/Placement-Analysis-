@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"></script>
+    
+
+<h1 class="prediction my-3">Prediction</h1>
+
+
+<form action="/predict" method="POST"></form>
+<div class="input-boxes my-4">
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Enter SSC percentage:  </span>
+        <input type="text" class="form-control" name ="ssc" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Enter HSC percentage: </span>
+        <input type="text" class="form-control" name="hsc" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Enter engineering percentage: </span>
+        <input type="text" class="form-control" name="engg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Enter cocubes test percentage: </span>
+        <input type="text" class="form-control" name="cocubes" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Enter coding test percentage: </span>
+        <input type="text" class="form-control" name="cod" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+      <input type="submit" class="btn btn-outline-primary d-grid mx-auto">
+
+    </div>
+  </form>
+
+  <p>Predicted salary: Rs. 87596.00662195</p>
+
+<!-- 
+  <div class="ans">
+    {% if name %}
+            
+              <h3>Predicted salary: Rs.  {{name}}!!</h3>
+            
+
+  {% endif %}
+  </div> -->
+
+
+</body>
+</html>
